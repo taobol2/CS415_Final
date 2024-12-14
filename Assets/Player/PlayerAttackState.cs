@@ -28,7 +28,7 @@ public class PlayerAttackState : PlayerState
 
         player.SetVelocity(player.attackMovement[comboCounter].x * attackDir, player.attackMovement[comboCounter].y);
 
-        stateTimer = .1f;
+        
     }
 
     public override void Exit()
@@ -44,7 +44,7 @@ public class PlayerAttackState : PlayerState
     {
         base.Update();
 
-        if (stateTimer < 0)
+        if (player.IsGroundDetected())
             rb.linearVelocity = new Vector2(0, 0);
 
         if (triggerCalled)

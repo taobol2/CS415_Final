@@ -16,10 +16,13 @@ public class Enemy : Entity
 
     [Header("Attack info")]
     public float attackDistance;
-    public EnemyStateMachine stateMachine { get; private set; }
+    
     public float attackCooldown;
 
     [HideInInspector] public float lastTimeAttacked;
+
+    public EnemyStateMachine stateMachine { get; private set; }
+    public string lastAnimBoolName {  get; private set; }
 
     protected override void Awake()
     {
@@ -32,7 +35,11 @@ public class Enemy : Entity
         base.Update();
         stateMachine.currentState.Update();
     }
+    public virtual void AssignLastAnimName(string _animBoolName)
+    {
+        lastAnimBoolName = _animBoolName;
 
+    }
     public virtual void OpenCounterAttackWindow() {
         canBeStunned = true;
         counterImage.SetActive(true);

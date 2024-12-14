@@ -20,6 +20,11 @@ public class PlayerAirState : PlayerState
     {
         base.Update();
 
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            stateMachine.ChangeState(player.fallAttackState);
+        }
+
         if (player.IsWallDetected()) { 
             stateMachine.ChangeState(player.wallSlideState);
         }

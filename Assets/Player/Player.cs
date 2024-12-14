@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Diagnostics.Contracts;
 using UnityEngine;
 
 public class Player : Entity  
@@ -6,6 +7,7 @@ public class Player : Entity
     [Header("Attack details")]
     public Vector2[] attackMovement;
     public float counterAttackDuration = .2f;
+    public float fallAttackV;
     public bool isBusy {  get; private set; }
     [Header("Move Info")]
     public float moveSpeed = 12f;
@@ -38,6 +40,10 @@ public class Player : Entity
     public PlayerAttackState attackState { get; private set; }  
 
     public PlayerCounterAttackState counterAttackState { get; private set; }
+
+    public PlayerDeadState deadState { get; private set; }
+
+    public PlayerFallAttackState fallAttackState{ get; private set; }
     #endregion
 
     protected override void Awake()
@@ -55,7 +61,9 @@ public class Player : Entity
         wallJumpState = new PlayerWallJumpState(this, stateMachine, "Jump");
         attackState = new PlayerAttackState(this, stateMachine, "Attack");
         counterAttackState = new PlayerCounterAttackState(this, stateMachine, "CounterAttack");
-     }
+        deadState = new PlayerDeadState(this, stateMachine, "Die");
+        fallAttackState = new PlayerFallAttackState(this, stateMachine, "FallAttack");
+    }
 
     protected override void Start() { 
 
@@ -105,7 +113,12 @@ public class Player : Entity
         }
     }
 
+    public override void Die()
+    {
+        base.Die();
 
-   
+        stateMachine.ChangeState(deadState);
+    }
+
 }
 

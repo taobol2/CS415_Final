@@ -8,6 +8,9 @@ public class Entity : MonoBehaviour
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
     public EntityFX fx { get; private set; }
+    public CharacterStats stats { get; private set; }
+
+    public CapsuleCollider2D cd { get; private set; }
     #endregion
 
     public int facingDir { get; private set; } = 1;
@@ -27,21 +30,28 @@ public class Entity : MonoBehaviour
     [SerializeField] protected Transform wallCheck;
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGroud;
+
+    public System.Action onFlipped;
     protected virtual void Awake() { 
     
     }
+
+    
     protected virtual void Start() {
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         fx = GetComponent<EntityFX>();
+        stats = GetComponent<CharacterStats>();
+        cd = GetComponent<CapsuleCollider2D>();
     }
     protected virtual void Update() {
     
     }
 
-    public virtual void Damage() {
+    public virtual void DamageEffect() {
         fx.StartCoroutine("FlashFX");
         StartCoroutine("HitKnockback");
+        
     }
 
     public virtual bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position,
@@ -64,6 +74,9 @@ public class Entity : MonoBehaviour
         facingDir = facingDir * -1;
         facingRight = !facingRight;
         transform.Rotate(0, 180, 0);
+
+        if(onFlipped != null) 
+            onFlipped();
     }
 
     public virtual void FlipController(float _x)
@@ -96,6 +109,11 @@ public class Entity : MonoBehaviour
         rb.linearVelocity = new Vector2(knockbackDirection.x * -facingDir, knockbackDirection.y);
         yield return new WaitForSeconds(knockbackDuration);
         isKnocked = false;
+    }
+
+    public virtual void Die()
+    {
+
     }
 
 }

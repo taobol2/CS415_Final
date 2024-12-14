@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\2019-2023\\2024\\Game dev\\415 final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|d:\\2019-2023\\2024\\game dev\\415 final\\assets\\enemy\\enemyskeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyskeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|D:\\2019-2023\\2024\\Game dev\\415 final\\assets\\ui\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|D:\\2019-2023\\2024\\Game dev\\415 final\\assets\\enemy\\skeletonstunstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\skeletonstunstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|d:\\2019-2023\\2024\\game dev\\415 final\\assets\\ui\\ui_ingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\ui_ingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|D:\\2019-2023\\2024\\Game dev\\415 final\\assets\\entityfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\entityfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|d:\\2019-2023\\2024\\game dev\\415 final\\assets\\ui\\ui_fadescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\ui_fadescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|D:\\2019-2023\\2024\\Game dev\\415 final\\assets\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|D:\\2019-2023\\2024\\Game dev\\415 final\\assets\\ui\\ui_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\ui_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|d:\\2019-2023\\2024\\game dev\\415 final\\assets\\playercounterattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\playercounterattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|d:\\2019-2023\\2024\\game dev\\415 final\\assets\\enemy\\enemyskeletonanimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyskeletonanimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|D:\\2019-2023\\2024\\Game dev\\415 final\\assets\\player\\playerdeadstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405C845B-2F84-9BC0-1F97-2E68FE1E03D3}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playerdeadstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemySkeletonAnimationTriggers.cs",
-              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\EnemySkeletonAnimationTriggers.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\EnemySkeletonAnimationTriggers.cs",
-              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\EnemySkeletonAnimationTriggers.cs",
-              "RelativeToolTip": "Assets\\Enemy\\EnemySkeletonAnimationTriggers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T05:25:25.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemySkeleton.cs",
-              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\EnemySkeleton.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\EnemySkeleton.cs",
-              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\EnemySkeleton.cs",
-              "RelativeToolTip": "Assets\\Enemy\\EnemySkeleton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAfAAAAAAAAAA==",
+              "Title": "UI.cs",
+              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\UI.cs",
+              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI.cs",
+              "RelativeToolTip": "Assets\\UI\\UI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T05:23:59.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerCounterAttackState.cs",
-              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\PlayerCounterAttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerCounterAttackState.cs",
-              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\PlayerCounterAttackState.cs",
-              "RelativeToolTip": "Assets\\PlayerCounterAttackState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T05:22:13.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\Enemy.cs",
-              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T04:28:22.115Z",
+              "WhenOpened": "2024-12-14T02:05:38.057Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SkeletonStunState.cs",
-              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\SkeletonStunState.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\SkeletonStunState.cs",
-              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Enemy\\SkeletonStunState.cs",
-              "RelativeToolTip": "Assets\\Enemy\\SkeletonStunState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Title": "UI_InGame.cs",
+              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI_InGame.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\UI_InGame.cs",
+              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI_InGame.cs",
+              "RelativeToolTip": "Assets\\UI\\UI_InGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T04:26:12.748Z",
+              "WhenOpened": "2024-12-14T02:50:12.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerDeadState.cs",
+              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Player\\PlayerDeadState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\PlayerDeadState.cs",
+              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\Player\\PlayerDeadState.cs",
+              "RelativeToolTip": "Assets\\Player\\PlayerDeadState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T02:02:57.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UI_MainMenu.cs",
+              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI_MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\UI_MainMenu.cs",
+              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI_MainMenu.cs",
+              "RelativeToolTip": "Assets\\UI\\UI_MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T01:50:05.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EntityFX.cs",
-              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\EntityFX.cs",
-              "RelativeDocumentMoniker": "Assets\\EntityFX.cs",
-              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\EntityFX.cs",
-              "RelativeToolTip": "Assets\\EntityFX.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
+              "Title": "UI_FadeScreen.cs",
+              "DocumentMoniker": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI_FadeScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\UI_FadeScreen.cs",
+              "ToolTip": "D:\\2019-2023\\2024\\Game dev\\415 final\\Assets\\UI\\UI_FadeScreen.cs",
+              "RelativeToolTip": "Assets\\UI\\UI_FadeScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T03:57:37.598Z",
+              "WhenOpened": "2024-12-14T01:45:29.237Z",
               "EditorCaption": ""
             }
           ]
